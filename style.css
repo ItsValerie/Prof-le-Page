@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body {
+  background-color: #FCF8EC;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18;
+  line-height: 2;
+  font-weight: 300;
+  text-align: center;
+}
+
+h1 {
+  color: #456368;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 32;
+  line-height: 2;
+  text-align: center;
+}
+
+h2 {
+  color: #79A4B1;
+  font-family: 'Roboto', sans-serif;
+  line-height: 2;
+  font-weight: 300;
+  margin: 2px;
+  text-align: center;
+}
+
+h3 {
+  color: #79A4B1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20;
+  line-height: 2;
+  font-weight: 300;
+  margin: 2px;
+  text-align: center;
+}
+
+p {
+  margin: 2px;
+  padding: 4px;
+  text-align: center;
+}
+
+a {
+  color: #79A4B1;
+  text-decoration: none;
+  padding: 4px;
+  margin: 4px;
+  background-color: lightgrey;
+  border-radius: 4px;
+}
+
+a:hover {
+  transition: 0.3;
+  color: #456368;
+}
+
+div {
+  background: white;                         /* White background */
+  padding: 15px;                             /* Internal space */
+  border-radius: 4px;                        /* Small radius */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 4px;
+  margin: auto;
+}
+
+.image-circle {
+  border-radius: 50%;
+}
+
+.container {
+  width: 500px;
+  margin: 10 auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+
+.card {
+  background: white;
+  padding: 8px;
+  border: 1px solid lightgrey;
+  margin: 20px;
+  box-shadow: 2px 3px 2px rgba(0,0,0,.1);
+}
+
+.fa {
+  width: 25px;
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+
